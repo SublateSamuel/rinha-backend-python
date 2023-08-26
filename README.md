@@ -1,6 +1,10 @@
 # API de Alta Escalabilidade com FastAPI, PostgreSQL, Redis e RabbitMQ
 
-Este projeto é uma prova de conceito (PoC) de uma API de alta escalabilidade construída usando o framework FastAPI, juntamente com tecnologias como PostgreSQL, Redis, RabbitMQ e Celery. A PoC foi projetada para demonstrar a capacidade de lidar com cargas intensivas de requisições e manter um desempenho eficiente, garantindo a escalabilidade.
+A aplicação em questão é uma prova de conceito (PoC) que visa testar a escalabilidade de uma API construída com o uso do framework FastAPI, bem como a integração de tecnologias como PostgreSQL, Redis, RabbitMQ e Celery. A principal finalidade dessa PoC é analisar o desempenho do conjunto de tecnologias em cenários de alta carga de requisições. Vale destacar que esse projeto não está pronto para ser implantado em ambientes de produção, sendo destinado apenas a testes e avaliações.
+
+## Objetivo da Prova de Conceito
+
+O foco principal desta PoC não é entregar uma solução completa para produção, mas sim estabelecer um ambiente controlado para simular e avaliar o comportamento das tecnologias selecionadas sob uma carga considerável de requisições. A PoC possibilita a análise da escalabilidade, eficiência e desempenho do ecossistema adotado, permitindo a obtenção de insights valiosos para futuras implementações.
 
 ## Tecnologias Utilizadas
 
