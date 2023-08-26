@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "rinha-backend-python"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Sublate <samuelsublate.dev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rinha_backend_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlmodel = "^0.0.8"
+fastapi = "^0.101.1"
+uvicorn = "^0.23.2"
+python-multipart = "^0.0.6"
+cachetools = "^5.3.1"
+asyncpg = "^0.28.0"
+python-dateutil = "^2.8.2"
+redis = "^5.0.0"
+httpx = "^0.24.1"
+psycopg2-binary = "^2.9.7"
+gunicorn = "^21.2.0"
+celery = {extras = ["asynchronous"], version = "^5.3.1"}
+faker = "^19.3.0"
+pip = "^23.2.1"
+install = "^1.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
